@@ -1,0 +1,23 @@
+/* css步骤 */
+/*位置 浮动 定位
+状态 块 行内 行内块
+宽高
+margin  padding  border
+里面元素 位置
+字体大小 颜色 背景*/
+
+
+/* 发现 */
+
+.head {
+    height: 0.9rem;
+
+    text-align: center;
+    /* 文字水平居中 */
+    line-height: 0.9rem;
+     /* 文字垂直居中  若两行文字就行高除以2 */
+
+     font-size: 0.38rem;
+     color:#fff;
+     background-color: #343339;
+}
