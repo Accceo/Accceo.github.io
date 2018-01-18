@@ -1,0 +1,229 @@
+/* 首页 */
+
+
+/* 轮播 */
+
+.swiper {
+    /* 相对定位 */
+    position: relative;
+}
+
+.search {
+    /* 定位 */
+    position: absolute;
+    top: 0.56rem;
+    /* left: 1.05rem; */
+    /* 居中办法 */
+    left: 50%;
+    margin-left: -2.7rem;
+    /* 盒模型  固定大小 定宽*/
+    width: 4.7rem;
+    height: 0.34rem;
+    padding: 0.11rem 0 0.15rem 0.7rem;
+   
+    /* 不固定宽度 */
+    /* width  原长/7.5  */
+    /* 字体 */
+    font-size: 0.24rem;
+}
+
+.dot {
+    /* 绝对定位  浮在最上层 位置不动 */
+    position: absolute;
+    bottom: 0.15rem;
+    width: 100%;
+    text-align: center;
+}
+
+.dot span {
+    display: inline-block;
+    width: 0.15rem;
+    height: 0.15rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color:#fff;
+    /* background-color: #fff; */
+    /* 变圆形 */
+    border-radius: 0.75rem;
+    
+}
+
+.content {
+    overflow: hidden;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    background-color: #f9f9f9;
+}
+
+.item-box {
+    height: 1.5rem;
+    margin-top: 0.18rem;
+}
+
+.item-box .list {
+    width: 33.33333%;
+    height: 0.75rem;
+    float: left;
+    border-right: 0.01rem solid #f9f9f9;
+    border-bottom: 0.01rem solid #f9f9f9;
+    /* 盒模型计算方式   */
+    box-sizing: border-box;
+    font-size: 0.28rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.75rem;
+}
+
+.item-box .big {
+    height: 1.5rem;
+}
+
+.bg1 {
+    background-color: #85dc38
+}
+
+.bg2 {
+    background-color: #f7713f
+}
+
+.bg3 {
+    background-color: #db386c
+}
+
+.bg4 {
+    background-color: #2caa71
+}
+
+
+/* .bg1 .big {
+        background: url(../img/baicai.png) center center no-repeat;
+        background-size:25%;
+    } */
+
+.bg1 .auto {
+    width: 0.75rem;
+    height: 0.65rem;
+}
+
+.bg2 .auto {
+    width: 0.75rem;
+    height: 0.65rem;
+}
+
+.bg3 .auto {
+    width: 0.75rem;
+    height: 0.65rem;
+}
+
+.bg4 .auto {
+    width: 0.75rem;
+    height: 0.65rem;
+}
+
+.title {
+    width: 3.47rem;
+    height: 0.99rem;
+    padding-top: 0.4rem;
+    font-size: 0.24rem;
+    color: #000;
+    /* background-color: #db386c; */
+}
+
+.title img {
+    display: inline-block;
+    width: 0.37rem;
+    height: 0.37rem;
+    margin-right: 0.2rem;
+    vertical-align: middle;
+}
+
+.title a {
+    padding-left: 0.1rem;
+    color: #31ad37;
+    text-decoration: underline
+}
+#a1{
+    color: #f7713f
+}
+#a2{
+    color:#db386c
+}
+#a3{
+    color:#2caa71
+}
+
+.menu {
+    float: left;
+    width: 47%;
+   overflow: hidden;
+   
+}
+.fr{
+    float: right;
+}
+
+.column {
+    float: left;
+    width: 50%;
+ box-sizing: border-box;
+    /* height: 1.73rem; */
+    /* margin-right: 0.01rem;
+    margin-bottom: 0.02rem; */
+border-right: 0.02rem solid #f9f9f9;
+border-bottom: 0.03rem solid #f9f9f9;
+
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 1.73rem;
+    background: #fff;
+}
+
+/* 同类 */
+.column:nth-of-type(2n){
+    border-right: 0;
+}
+.active-box{
+
+height: 1.45rem;
+
+  margin-top: 0.24rem;
+  margin-bottom: 1.2rem;
+
+padding-top: 0.3rem;
+padding-bottom: 0.24rem;
+
+
+    text-align: center;
+    line-height: 0.48rem;
+    background-color: #fff;
+  
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+     background-color: #2caa71;
+    
+}
+.footer li{
+    float: left;
+    width: 25%;
+    height:0.98rem;
+
+
+   
+    font-size:0.21rem;
+}
+.footer img{
+    padding-bottom: 0.14rem;
+    padding-top: 0.19rem;
+    width: 0.3rem;
+}
+.active{
+    color: #fa2855;
+}
+.act{
+    width: 
+
+}
